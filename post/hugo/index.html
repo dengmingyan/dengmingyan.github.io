@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hugo | Welcome my zone</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.107.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="hugo, vitae, theme, static">
+<meta name="description" content="安装Hugo以及搭建个人博客 简介 官方网站：https://gohugo.io/
+Hugo是一个静态网站生成器
+1.安装Hugo 在Hugo官方网站下载压缩包后可由SFTP上传至Linux
+mkdir hugo
+tar -zxf hugo_0.107.0_Linux-64bit.tar.gz -C hugo …">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" /><link rel="stylesheet" href="/css/katex.css" crossorigin="anonymous">
+<script defer src="/js/katex.js"  integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+<script defer src="/js/auto-render.js" integrity="sha384-0QrOZ8WIARJUoT5pH7Iuzi7iq0mXUXLF9yj5ZvYxTkMRv1zcaPQiOQ9ksHYbKw7M" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() { renderMathInElement(document.body, { delimiters: [ {left: "$$", right: "$$", display: true}, {left: "$", right: "$", display: false} ] }); });
+</script>
+
+
+
+
+<meta property="og:title" content="Hugo" />
+<meta property="og:description" content="安装Hugo以及搭建个人博客 简介 官方网站：https://gohugo.io/
+Hugo是一个静态网站生成器
+1.安装Hugo 在Hugo官方网站下载压缩包后可由SFTP上传至Linux
+mkdir hugo
+tar -zxf hugo_0.107.0_Linux-64bit.tar.gz -C hugo //解压hugo压缩包至hugo文件夹
+cp ./hugo /usr/local/bin
+hugo version //查看hugo版本信息
+2.创建个人博客 hugo new site danta-blog(你的博客名称) //创建个人博客
+3.下载主题 主题网站：完整列表|雨果主题 (gohugo.io)
+cd danta-blog
+git clone github网站 themes/主题名字
+git clone https://github.com/dataCobra/hugo-vitae themes/hugo-vitae //下载主题至themes/hugo-vitae
+4.配置主题 找到你下载好的主题配置文件config.toml，将它复制到你的博客配置文件config.toml里
+vim config.toml
+5.本地启动hugo生成网站 hugo -D //更新配置
+hugo server --bind &quot;0.0.0.0&quot; --buildDrafts //启动网站
+如上图所示则启动成功，恭喜你已经成功配置好个人博客啦~
+在Github部署Hugo 1.新建仓库
+2.hugo生成网页，上传至Github
+hugo --theme=hugo-vitae --baseURL=&quot;https://dengmingyan.github.io/&quot; --buildDrafts
+执行语句后会在博客目录下生成一个public文件
+再下载应用Xftp 7将public文件复制至本地，然后上传到github仓库
+3.访问部署好的网站
+https://dengmingyan.github.io/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dengmingyan.github.io/post/hugo/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-12-15T14:59:53+08:00" />
+<meta property="article:modified_time" content="2022-12-15T14:59:53+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo"/>
+<meta name="twitter:description" content="安装Hugo以及搭建个人博客 简介 官方网站：https://gohugo.io/
+Hugo是一个静态网站生成器
+1.安装Hugo 在Hugo官方网站下载压缩包后可由SFTP上传至Linux
+mkdir hugo
+tar -zxf hugo_0.107.0_Linux-64bit.tar.gz -C hugo //解压hugo压缩包至hugo文件夹
+cp ./hugo /usr/local/bin
+hugo version //查看hugo版本信息
+2.创建个人博客 hugo new site danta-blog(你的博客名称) //创建个人博客
+3.下载主题 主题网站：完整列表|雨果主题 (gohugo.io)
+cd danta-blog
+git clone github网站 themes/主题名字
+git clone https://github.com/dataCobra/hugo-vitae themes/hugo-vitae //下载主题至themes/hugo-vitae
+4.配置主题 找到你下载好的主题配置文件config.toml，将它复制到你的博客配置文件config.toml里
+vim config.toml
+5.本地启动hugo生成网站 hugo -D //更新配置
+hugo server --bind &quot;0.0.0.0&quot; --buildDrafts //启动网站
+如上图所示则启动成功，恭喜你已经成功配置好个人博客啦~
+在Github部署Hugo 1.新建仓库
+2.hugo生成网页，上传至Github
+hugo --theme=hugo-vitae --baseURL=&quot;https://dengmingyan.github.io/&quot; --buildDrafts
+执行语句后会在博客目录下生成一个public文件
+再下载应用Xftp 7将public文件复制至本地，然后上传到github仓库
+3.访问部署好的网站
+https://dengmingyan.github.io/"/>
+
+<meta itemprop="name" content="Hugo">
+<meta itemprop="description" content="安装Hugo以及搭建个人博客 简介 官方网站：https://gohugo.io/
+Hugo是一个静态网站生成器
+1.安装Hugo 在Hugo官方网站下载压缩包后可由SFTP上传至Linux
+mkdir hugo
+tar -zxf hugo_0.107.0_Linux-64bit.tar.gz -C hugo //解压hugo压缩包至hugo文件夹
+cp ./hugo /usr/local/bin
+hugo version //查看hugo版本信息
+2.创建个人博客 hugo new site danta-blog(你的博客名称) //创建个人博客
+3.下载主题 主题网站：完整列表|雨果主题 (gohugo.io)
+cd danta-blog
+git clone github网站 themes/主题名字
+git clone https://github.com/dataCobra/hugo-vitae themes/hugo-vitae //下载主题至themes/hugo-vitae
+4.配置主题 找到你下载好的主题配置文件config.toml，将它复制到你的博客配置文件config.toml里
+vim config.toml
+5.本地启动hugo生成网站 hugo -D //更新配置
+hugo server --bind &quot;0.0.0.0&quot; --buildDrafts //启动网站
+如上图所示则启动成功，恭喜你已经成功配置好个人博客啦~
+在Github部署Hugo 1.新建仓库
+2.hugo生成网页，上传至Github
+hugo --theme=hugo-vitae --baseURL=&quot;https://dengmingyan.github.io/&quot; --buildDrafts
+执行语句后会在博客目录下生成一个public文件
+再下载应用Xftp 7将public文件复制至本地，然后上传到github仓库
+3.访问部署好的网站
+https://dengmingyan.github.io/"><meta itemprop="datePublished" content="2022-12-15T14:59:53+08:00" />
+<meta itemprop="dateModified" content="2022-12-15T14:59:53+08:00" />
+<meta itemprop="wordCount" content="67">
+<meta itemprop="keywords" content="" />
+</head>
+<body>
+<header>
+<div id="avatar">
+<a href="https://dengmingyan.github.io/"><img src="/images/me1.jpg" alt="Welcome my zone"></a>
+</div>
+<div id="titletext">
+<h2 id="title"><a href="https://dengmingyan.github.io/">Welcome my zone</a></h2>
+</div>
+<div id="title-description">
+<p id="subtitle">There are some contents about studying linux.</p>
+<div id="social">
+<nav><ul>
+<li><a href="https://github.com/dataCobra/hugo-vitae" rel="me" aria-label="Github"><span title="Github" class="icons fab fa-github" aria-hidden="true"></span></a></li>
+<li><a href="/index.xml" rel="me" aria-label="RSS"><span title="RSS" class="icons fas fa-rss" aria-hidden="true"></span></a></li>
+<li><button id="dark-mode" aria-label="Switch Dark Mode"><span title="Switch Dark Mode" class="icons fas fa-moon" aria-hidden="true"></span></button></li>
+</ul></nav>
+</div>
+</div>
+<div id="mainmenu">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/post">All Posts</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/tags">Tags</a></li>
+<li><a href="/categories">Categories</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
+<div class="post">
+<article>
+<div class="post-header">
+<div class="meta">
+<div class="date">
+<span class="day">15</span>
+<span class="rest">Dec 2022</span>
+</div>
+</div>
+<div class="matter">
+<h1 class="title">Hugo</h1>
+<p class="post-meta">
+<span class="post-meta">
+
+
+
+</span>
+
+</p>
+</div>
+</div>
+<div class="markdown">
+<h2 id="安装hugo以及搭建个人博客">安装Hugo以及搭建个人博客</h2>
+<h4 id="简介">简介</h4>
+<p>官方网站：https://gohugo.io/</p>
+<p>Hugo是一个静态网站生成器</p>
+<h4 id="1安装hugo">1.安装Hugo</h4>
+<p>在Hugo官方网站下载压缩包后可由SFTP上传至Linux</p>
+<p><code>mkdir hugo</code></p>
+<p><code>tar -zxf hugo_0.107.0_Linux-64bit.tar.gz -C hugo    //解压hugo压缩包至hugo文件夹</code></p>
+<p><code>cp ./hugo /usr/local/bin</code></p>
+<p><code>hugo version   //查看hugo版本信息</code></p>
+<p><figure>
+  <img src="" alt=""  />
+</figure></p>
+<h5 id="2创建个人博客">2.创建个人博客</h5>
+<p><code>hugo new site danta-blog(你的博客名称)     //创建个人博客</code></p>
+<h5 id="3下载主题">3.下载主题</h5>
+<p>主题网站：<a href="https://themes.gohugo.io/" target="_blank">完整列表|雨果主题 (gohugo.io)</a></p>
+<p><code>cd danta-blog</code></p>
+<p>git     clone          github网站         themes/主题名字</p>
+<p><code>git clone https://github.com/dataCobra/hugo-vitae themes/hugo-vitae    //下载主题至themes/hugo-vitae</code></p>
+<h5 id="4配置主题">4.配置主题</h5>
+<p>找到你下载好的主题配置文件config.toml，将它复制到你的博客配置文件config.toml里</p>
+<p><code>vim config.toml</code></p>
+<p><figure>
+  <img src="/images/1671101716905.png" alt=""  />
+</figure></p>
+<h5 id="5本地启动hugo生成网站">5.本地启动hugo生成网站</h5>
+<p><code>hugo -D   //更新配置</code></p>
+<p><code>hugo server --bind &quot;0.0.0.0&quot;  --buildDrafts   //启动网站</code></p>
+<p><figure>
+  <img src="/images/fabedd5491b05d3101fe7350f67f171.png" alt=""  />
+</figure></p>
+<p>如上图所示则启动成功，恭喜你已经成功配置好个人博客啦~</p>
+<h4 id="在github部署hugo">在Github部署Hugo</h4>
+<p>1.新建仓库</p>
+<p><figure>
+  <img src="/images/1671101961645.jpg" alt=""  />
+</figure></p>
+<p>2.hugo生成网页，上传至Github</p>
+<p><code>hugo --theme=hugo-vitae  --baseURL=&quot;https://dengmingyan.github.io/&quot; --buildDrafts</code></p>
+<p>执行语句后会在博客目录下生成一个public文件</p>
+<p>再下载应用Xftp 7将public文件复制至本地，然后上传到github仓库</p>
+<p>3.访问部署好的网站</p>
+<p><a href="https://dengmingyan.github.io/" target="_blank">https://dengmingyan.github.io/</a></p>
+<p><figure>
+  <img src="/images/1671102581708.jpg" alt=""  />
+</figure></p>
+
+</div>
+</div>
+</article>
+</div>
+</main>
+<footer>
+© Copyright notice | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a>
+</footer><script src="/js/dark-mode.js"></script>
+
+</body>
+</html>
