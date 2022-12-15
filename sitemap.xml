@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://dengmingyan.github.io/post/</loc>
+    <lastmod>2022-12-15T20:13:23+08:00</lastmod>
+  </url><url>
+    <loc>https://dengmingyan.github.io/</loc>
+    <lastmod>2022-12-15T20:13:23+08:00</lastmod>
+  </url><url>
+    <loc>https://dengmingyan.github.io/post/nginx/</loc>
+    <lastmod>2022-12-15T20:13:23+08:00</lastmod>
+  </url><url>
+    <loc>https://dengmingyan.github.io/post/hugo/</loc>
+    <lastmod>2022-12-15T14:59:53+08:00</lastmod>
+  </url><url>
+    <loc>https://dengmingyan.github.io/post/docker/</loc>
+    <lastmod>2022-12-15T11:21:46+08:00</lastmod>
+  </url><url>
+    <loc>https://dengmingyan.github.io/post/sec/</loc>
+    <lastmod>2022-12-13T11:21:46+08:00</lastmod>
+  </url><url>
+    <loc>https://dengmingyan.github.io/categories/</loc>
+  </url><url>
+    <loc>https://dengmingyan.github.io/series/</loc>
+  </url><url>
+    <loc>https://dengmingyan.github.io/tags/</loc>
+  </url>
+</urlset>

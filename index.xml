@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Welcome my zone</title>
+		<link>https://dengmingyan.github.io/</link>
+		<description>Recent content on dengmingyan.github.io</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Thu, 15 Dec 2022 20:13:23 +0800</lastBuildDate>
+		<atom:link href="https://dengmingyan.github.io/index.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>在Linux上安装Nginx</title>
+			<link>https://dengmingyan.github.io/post/nginx/</link>
+			<pubDate>Thu, 15 Dec 2022 20:13:23 +0800</pubDate>
+			<guid>https://dengmingyan.github.io/post/nginx/</guid>
+			<description>
+			安装Nginx 1.安装Nginx
+yum install nginx
+2.配置防火墙开放端口
+system start firewalld firewalld-cmd --add-server=http --permanent firewalld-cmd …
+			</description>
+		</item>
+		<item>
+			<title>Hugo</title>
+			<link>https://dengmingyan.github.io/post/hugo/</link>
+			<pubDate>Thu, 15 Dec 2022 14:59:53 +0800</pubDate>
+			<guid>https://dengmingyan.github.io/post/hugo/</guid>
+			<description>
+			安装Hugo以及搭建个人博客 简介 官方网站：https://gohugo.io/
+Hugo是一个静态网站生成器
+1.安装Hugo 在Hugo官方网站下载压缩包后可由SFTP上传至Linux
+mkdir hugo
+tar -zxf …
+			</description>
+		</item>
+		<item>
+			<title>在Linux上安装Docker</title>
+			<link>https://dengmingyan.github.io/post/docker/</link>
+			<pubDate>Thu, 15 Dec 2022 11:21:46 +0800</pubDate>
+			<guid>https://dengmingyan.github.io/post/docker/</guid>
+			<description>
+			使用Docker技术，在容器中运行Socket通信 简介 ​ Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中,然后发布到任何流行的Linux或Windows操作系统的机器上,也可以实现虚拟化,容器是完全使用沙箱机制,相互之间不会有 …
+			</description>
+		</item>
+		<item>
+			<title>在Linux（openeuler）上安装Git</title>
+			<link>https://dengmingyan.github.io/post/sec/</link>
+			<pubDate>Tue, 13 Dec 2022 11:21:46 +0800</pubDate>
+			<guid>https://dengmingyan.github.io/post/sec/</guid>
+			<description>
+			在Linux（openeuler）上安装git 官方下载地址：
+Git (git-scm.com)
+下载与安装 1.在git官网复制下载地址 2.在Linux上进行下载 wget …
+			</description>
+		</item>
+	</channel>
+</rss>
